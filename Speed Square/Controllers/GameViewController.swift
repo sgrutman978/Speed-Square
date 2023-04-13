@@ -20,7 +20,7 @@ class GameViewController: UIViewController {
         
         // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
         // including entities and graphs.
-        let scene = GameScene(size: CGSize(width: 2048, height: 1536))
+        let scene = GameScene(size: CGSize(width: 1536, height: 2048))
         scene.scaleMode = .aspectFill
         
         view.ignoresSiblingOrder = true

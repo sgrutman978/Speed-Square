@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4087F229E5085700E94F8A /* SquareNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4087F129E5085700E94F8A /* SquareNode.swift */; };
 		2F52DE6A29C67A38000B695D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52DE6929C67A38000B695D /* AppDelegate.swift */; };
 		2F52DE6C29C67A38000B695D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F52DE6B29C67A38000B695D /* GameScene.sks */; };
 		2F52DE6E29C67A38000B695D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F52DE6D29C67A38000B695D /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F4087F129E5085700E94F8A /* SquareNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareNode.swift; sourceTree = "<group>"; };
 		2F52DE6629C67A38000B695D /* Speed Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speed Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F52DE6929C67A38000B695D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F52DE6B29C67A38000B695D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4087F029E5083200E94F8A /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				2F4087F129E5085700E94F8A /* SquareNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
 		2F52DE5D29C67A38000B695D = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				2F52DE8029C681EA000B695D /* Delegates */,
 				2F52DE6B29C67A38000B695D /* GameScene.sks */,
 				2F52DE6D29C67A38000B695D /* Actions.sks */,
+				2F4087F029E5083200E94F8A /* Nodes */,
 				2F52DE8129C68209000B695D /* Scenes */,
 				2F52DE8229C68216000B695D /* Controllers */,
 				2F52DE8329C68236000B695D /* Mains */,
@@ -184,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4087F229E5085700E94F8A /* SquareNode.swift in Sources */,
 				2F52DE7029C67A38000B695D /* GameScene.swift in Sources */,
 				2F52DE7229C67A38000B695D /* GameViewController.swift in Sources */,
 				2F52DE6A29C67A38000B695D /* AppDelegate.swift in Sources */,

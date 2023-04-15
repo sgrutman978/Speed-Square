@@ -28,7 +28,8 @@ class GameViewController: UIViewController {
         view.showsNodeCount = true
         view.presentScene(scene)
         
-        
+
+
 //        view.presentScene(sceneNode)
             
             // Get the SKScene from the loaded GKScene
@@ -46,7 +47,7 @@ class GameViewController: UIViewController {
 //            }
         
     }
-
+    
     override var shouldAutorotate: Bool {
         return true
     }

@@ -16,6 +16,7 @@
 		2F52DE7529C67A38000B695D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F52DE7329C67A38000B695D /* Main.storyboard */; };
 		2F52DE7729C67A39000B695D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F52DE7629C67A39000B695D /* Assets.xcassets */; };
 		2F52DE7A29C67A39000B695D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F52DE7829C67A39000B695D /* LaunchScreen.storyboard */; };
+		2F59C7B229E8F5410051CE42 /* RectangleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59C7B129E8F5410051CE42 /* RectangleNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2F52DE7429C67A38000B695D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F52DE7629C67A39000B695D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F52DE7929C67A39000B695D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F59C7B129E8F5410051CE42 /* RectangleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				2F4087F129E5085700E94F8A /* SquareNode.swift */,
+				2F59C7B129E8F5410051CE42 /* RectangleNode.swift */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				2F4087F229E5085700E94F8A /* SquareNode.swift in Sources */,
 				2F52DE7029C67A38000B695D /* GameScene.swift in Sources */,
+				2F59C7B229E8F5410051CE42 /* RectangleNode.swift in Sources */,
 				2F52DE7229C67A38000B695D /* GameViewController.swift in Sources */,
 				2F52DE6A29C67A38000B695D /* AppDelegate.swift in Sources */,
 			);

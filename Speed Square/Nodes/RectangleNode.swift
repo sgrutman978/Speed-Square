@@ -7,18 +7,18 @@
 
 import SpriteKit
 
-class SquareNode: SKNode {
+class RectangleNode: SKNode {
     
     private var player: SKShapeNode!
     var checked = false
     var color: UIColor!
-    var direction: Int!
+    var y: Int!
     
-    init(color: UIColor, direction: Int){
+    init(color: UIColor, y: Int){
         super.init()
+        self.y = y
         self.color = color
-        self.direction = direction
-        self.setupSquare()
+        self.setupRectangle()
         self.zPosition = 10.0
         self.name = "square1"
     }
@@ -29,17 +29,12 @@ class SquareNode: SKNode {
     
 }
 
-extension SquareNode {
+extension RectangleNode {
     
-    private func setupSquare(){
-        player = SKShapeNode(rect: CGRect(x: 0, y: 0, width: 180, height: 180))
-        setColor(color: self.color)
-        addChild(player)
-    }
-    
-    func setColor(color: UIColor){
-        self.color = color
+    private func setupRectangle(){
+        player = SKShapeNode(rect: CGRect(x: 250, y: y, width: 1000, height: 180))
         player.fillColor = self.color
+        addChild(player)
     }
     
 }
